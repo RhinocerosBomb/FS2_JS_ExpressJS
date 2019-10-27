@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <head>
+      <link rel="stylesheet" type="text/css" href="./css/mycss.css">
+    </head>
+    <script defer src="./js/myScript.js"></script>
+    <div id="container">
+      <div>This is page 2! Insert a number to get the multiplication of them.</div>
+      <h2 id="value"></h2>
+      <form name="squareForm" onsubmit="return validateForm('mul')" method="post">
+        <input type="number" name="num1" required>
+        <input type="number" name="num2" required>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </body>
+</html>
